@@ -21,7 +21,7 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	errors2 "github.com/apache/rocketmq-client-go/v2/errors"
+	errors2 "github.com/hbgzliyan/rocketmq-client-go/v2/errors"
 	"strconv"
 	"sync"
 	"sync/atomic"
@@ -29,11 +29,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/apache/rocketmq-client-go/v2/internal"
-	"github.com/apache/rocketmq-client-go/v2/internal/remote"
-	"github.com/apache/rocketmq-client-go/v2/internal/utils"
-	"github.com/apache/rocketmq-client-go/v2/primitive"
-	"github.com/apache/rocketmq-client-go/v2/rlog"
+	"github.com/hbgzliyan/rocketmq-client-go/v2/internal"
+	"github.com/hbgzliyan/rocketmq-client-go/v2/internal/remote"
+	"github.com/hbgzliyan/rocketmq-client-go/v2/internal/utils"
+	"github.com/hbgzliyan/rocketmq-client-go/v2/primitive"
+	"github.com/hbgzliyan/rocketmq-client-go/v2/rlog"
 )
 
 type defaultProducer struct {

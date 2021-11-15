@@ -19,11 +19,11 @@ package rocketmq
 
 import (
 	"context"
-	"github.com/apache/rocketmq-client-go/v2/errors"
+	"github.com/hbgzliyan/rocketmq-client-go/v2/errors"
 
-	"github.com/apache/rocketmq-client-go/v2/consumer"
-	"github.com/apache/rocketmq-client-go/v2/primitive"
-	"github.com/apache/rocketmq-client-go/v2/producer"
+	"github.com/hbgzliyan/rocketmq-client-go/v2/consumer"
+	"github.com/hbgzliyan/rocketmq-client-go/v2/primitive"
+	"github.com/hbgzliyan/rocketmq-client-go/v2/producer"
 )
 
 type Producer interface {

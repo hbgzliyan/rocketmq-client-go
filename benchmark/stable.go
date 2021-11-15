@@ -20,7 +20,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/apache/rocketmq-client-go/v2/errors"
+	"github.com/hbgzliyan/rocketmq-client-go/v2/errors"
 	"os"
 	"os/signal"
 	"syscall"

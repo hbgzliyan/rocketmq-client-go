@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/apache/rocketmq-client-go/v2/primitive"
+	"github.com/hbgzliyan/rocketmq-client-go/v2/primitive"
 	. "github.com/smartystreets/goconvey/convey"
 )
 
